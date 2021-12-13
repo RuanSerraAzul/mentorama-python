@@ -1,0 +1,7 @@
+##perguntas disponibilizadas no PDF
+
+A) R: Palavras reservadas definem regras de sintaxe e estruturas da linguagem e não podem serem usadas como nomes de variaveis. O código apresentado não possui nenhuma palavra reservada.
+
+B)R:  O código apresentado não possui nenhuma palavra reservada.
+
+C)R: Considerando A = 1, b= -5, c=6; os raizes serão {3,2}
