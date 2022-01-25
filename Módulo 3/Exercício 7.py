@@ -24,7 +24,7 @@ class TV():
         self.volume-=1
         if self.volume<0:
             print("Erro, volume não pode ser menor que 0")
-            self.volume=100
+            self.volume=0
         print("Volume atual: {}".format(self.volume))
     
 
