@@ -1,0 +1,6 @@
+Erro de Sintaxe:
+    Significa que escrevemos algo em nosso código que foge da sintaxe correta a de determinda
+    função ou classe
+
+    Exemplo: saida.write("Teste", "Teste 2") => retornará um erro de sintaxe, pois a função write espera 
+    apenas 1 parametro 
