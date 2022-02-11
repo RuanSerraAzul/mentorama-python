@@ -4,3 +4,30 @@ Erro de Sintaxe:
 
     Exemplo: saida.write("Teste", "Teste 2") => retornará um erro de sintaxe, pois a função write espera 
     apenas 1 parametro 
+
+Erros de tempo de execução: São produzidos se algo de errado acontece enquanto o programa está em execução.
+    A maioria das mensagens de tempo de execução incluem informação sobre onde o erro ocorreu e que função estava em execução.
+    
+    Exemplo: Uma recursão infinita eventualmente causa um erro em tempo de execução identificado como 
+    "maximum recursion depth exceeded"(Excedida a máxima profundidade de recursão).
+
+
+Erros de semântica: É um erro na "lógica de seu código", em sua semântica, o código está sintaticamente correto, porém não faz o que se esperava dele.
+    Por isso, este tipo de erro é geralmente mais difícil de ser identificado e corrigido.
+
+    Exemplo: 
+    
+        def main():
+            prit("Hello World")
+           
+
+        
+        A mensagem de erro recebida:
+        Traceback (most recent call last):
+        File "teste2.py", line 3, in 
+        main();
+        File "teste2.py", line 2, in main
+        prit("teste");
+        NameError: global name 'prit' is not defined
+
+    
