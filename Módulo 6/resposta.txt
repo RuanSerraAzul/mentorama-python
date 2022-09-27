@@ -1,0 +1,43 @@
+1) 
+    a) SELECT 
+    'PrimeiroNome',
+    'UltimoNome' 
+        FROM Funcionarios 
+        ORDER BY 'UltimoNome';
+
+    b) SELECT * FROM Funcionarios ORDER BY 'Cidade' ;
+
+    c)SELECT * FROM Funcionarios
+        WHERE 'Salario'>1000 
+            ORDER BY 'PrimeiroNome',
+            'SegundoNome',
+            'UltimoNome';
+
+    d)SELECT 
+    'DataNasci',
+    'PrimeiroNome'
+        FROM Funcionarios
+        ORDER BY 'DataNasci' DESC;
+
+    e) SELECT SUM(Salario) FROM Funcionarios;
+
+    F)SELECT 
+    Funcionarios.PrimeiroNome,
+    Funcionarios.Funcao,
+    Departamento.Nome,
+        FROM Funcionarios
+        JOIN Departamento
+            ON Funcionarios.CodigoDepartamento = Departamento.Codigo
+        ORDER BY Funcionarios.PrimeiroNome;
+
+    G)SELECT COUNT(*) FROM Funcionarios;
+
+    H)SELECT 
+    Departamento.Nome,
+    Funcionarios.PrimeiroNome
+        FROM Departamento 
+        JOIN Funcionarios 
+            ON Departamento.Codigo = Funcionarios.CodigoDepartamento
+        ORDER BY Departamento.Nome,
+            Funcionarios.PrimeiroNome;
+

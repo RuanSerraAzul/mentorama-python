@@ -1,0 +1,23 @@
+1 -  Utilizando comandos SQL, apresente a instrução que resolva os seguintes problemas propostos:
+Para resolução das questões, considere o seguinte esquema:
+
+Funcionarios (Codigo, PrimeiroNome,
+SegundoNome, UltimoNome,
+DataNasci, CPF, RG, Endereco, CEP,
+Cidade, Fone, CodigoDepartamento,
+Funcao, Salario)
+
+Departamentos (Codigo, Nome,
+Localizacao,
+CodigoFuncionarioGerente)
+
+Obs: Crie ao menos 10 registros para a tabela Funcionários e ao menos 5 registros para tabela Departamentos.
+
+    A) Listar nome e sobrenome ordenado por sobrenome
+    B) Listar todos os campos de funcionários ordenados por cidade
+    C) Liste os funcionários que têm salário superior a R$ 1.000,00 ordenados pelo nome completo
+    D) Liste a data de nascimento e o primeiro nome dos funcionários ordenados do mais novo para o mais velho
+    E) Liste o total da folha de pagamento
+    F) Liste o nome, o nome do departamento e a função de todos os funcionários
+    G) Liste a quantidade de funcionários desta empresa
+    H) Liste o nome do departamento e do funcionário ordenados por departamento e funcionário
